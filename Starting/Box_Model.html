@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: gainsboro;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model & Alignment</title>
+    <style>
+        h1 {
+            background-color: rgb(188, 156, 248);
+            color: rgb(2, 2, 2);
+            font-style: inherit;
+            font-family: 'time now';
+            font-size: 33px;
+            height: 50px;
+            width: auto;
+            border-radius: 30px;
+            border-width: 3px;
+            border-color: navy;
+            border-style: solid;
+            padding-top: 3px;
+            padding-left: 482px;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        #container {
+            border: 3px solid navy;
+            padding: 20px;
+            margin: 30px;
+            height: auto;
+            width: auto;
+            border-radius: 30px;
+        }
+
+        .txt {
+            font-family: cursive;
+            color: rebeccapurple;
+            background-color: wheat;
+            border: 3px solid navy;
+            padding: 20px;
+            margin: 30px;
+            width: 720px;
+            border-radius: 30px;
+        }
+
+        .img {
+            float: right;
+            margin: auto;
+            padding-right:  115px;
+            width: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Box Model & Alignment</h1>
+    <div id="container">
+        <div>
+            <p class="txt">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita hic vero quidem ullam id
+                consequatur doloremque et suscipit saepe atque. Nam, iusto dolores? </p>
+            <img class="img" src="https://i.stack.imgur.com/BZAqc.png" alt="Not Found">
+        </div>
+        <div class="txt">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita hic vero quidem ullam id
+                consequatur doloremque et suscipit saepe atque. Nam, iusto dolores?</p>
+        </div>
+        <div class="txt">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita hic vero quidem ullam id
+                consequatur doloremque et suscipit saepe atque. Nam, iusto dolores?</p>
+        </div>
+    </div>
+</body>
+
+</html>
