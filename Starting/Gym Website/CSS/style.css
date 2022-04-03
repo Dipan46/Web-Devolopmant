@@ -1,0 +1,130 @@
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+}
+
+.left img {
+    width: 100px;
+    margin: auto;
+    padding: auto;
+    cursor: pointer;
+}
+
+.left div {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 20px;
+    color: #b9901d;
+}
+
+.mid {
+    display: block;
+    width: 50%;
+    margin: 46px auto;
+}
+
+.right {
+    color: aliceblue;
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 47px;
+}
+
+.btn {
+    background-color: #b9901d;
+    color: aliceblue;
+    margin-top: 16px;
+    padding: 4px 14px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.ibtn {
+    background-color: #b9901d;
+    color: aliceblue;
+    margin-right: 16px;
+    padding: 4px 14px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.btn:active {
+    text-decoration: underline;
+    color: white;
+    background-color: black;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 24px;
+    font-family: fantasy;
+}
+
+.navbar li a {
+    color: #000000;
+    padding: 34px 23px;
+    text-shadow: 0 0 10px #b9901d;
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+}
+
+.navbar li a:active {
+    text-decoration: underline;
+    color: #b9901d;
+    text-shadow: 0 0 10px black;
+}
+
+.container {
+    border: 3px solid #b9901d;
+    margin: 70px 20px;
+    padding: 30px 30px;
+    width: 33%;
+    border-radius: 50px;
+    color: #b9901d;
+    font-family: fantasy;
+    text-shadow: 0 0 10px black;
+}
+
+.form {
+    color: black;
+    font-family: fantasy;
+    text-shadow: 0 0 10px #b9901d;
+    margin: 5px 5px;
+    padding: 5px 5px;
+}
+
+.fbox {
+    margin: 5px 5px;
+    padding: 5px 5px;
+}
+
+.form input {
+    display: inline-block;
+    color: black;
+    font-family: fantasy;
+    text-shadow: 0 0 10px #b9901d;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #b9901d;
+    margin: 5px 5px;
+    padding: 2px 5px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
