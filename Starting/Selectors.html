@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selectors</title>
+    <style>
+        h1 {
+            color: rgb(212, 164, 5);
+            background-color: rgb(0, 0, 0);
+            font-weight: bold;
+            text-align: center;
+        }
+
+        div p {
+            color: aliceblue;
+            background-color: blue;
+            font-weight: bold;
+        }
+
+        /* Direct inside div */
+        div>p {
+            color: rgb(0, 136, 255);
+            background-color: rgb(0, 255, 38);
+            font-weight: bold;
+        }
+
+        /* Just after div */
+        div+p {
+            color: rgb(240, 244, 248);
+            background-color: rgb(0, 0, 0);
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>More on Selectors</h1>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li class="item">
+                    <p>This is a paragraph inside li</p>
+                </li>
+                <li>This is text inside li</li>
+                <p>This is a paragraph inside ul</p>
+            </ul>
+            <p>This is a paragraph</p>
+        </div>
+        <p>This is a paragraph just after div</p>
+        <p>This is another paragraph</p>
+    </div>
+    <p>This is the outermost paragraph</p>
+</body>
+
+</html>
