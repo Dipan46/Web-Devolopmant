@@ -1,0 +1,76 @@
+header {
+    border-bottom: 3px solid black;
+    display: flex;
+    padding: 1%;
+    flex-wrap: wrap;
+}
+
+.img {
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img img {
+    width: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: right;
+}
+
+.detail {
+    width: 80%;
+}
+
+.detail li {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 140%;
+    padding: 4px;
+    padding-left: 50px;
+    text-shadow: 0 0 10px #b9901d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.obj {
+    display: flex;
+    text-align: center;
+    margin: 2%;
+}
+
+.obj div {
+    margin: auto;
+    padding: 5px;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 34px;
+}
+
+.container {
+    display: flex;
+    border: 3px solid black;
+    background-color: silver;
+    margin: 25px;
+    font-family: sans-serif;
+    flex-wrap: wrap;
+    line-height: 30px;
+}
+
+.left {
+    margin: 3px;
+    padding: 3px;
+}
+
+.right {
+    margin: 3px;
+    padding: 3px;
+    width: 32%;
+}
+.container ul{
+    margin: 2%;
+}
+
+.container ul h1{
+    text-decoration: underline;
+}
