@@ -1,4 +1,3 @@
-
 let output = [];
 let i = 1;
 function fizzbuzz() {
