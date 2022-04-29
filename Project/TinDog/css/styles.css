@@ -1,0 +1,93 @@
+#title {
+    background-color: #ff4c64;
+}
+
+.navbar {
+    padding: 2%;
+    font-weight: 900;
+}
+
+.navbar {
+    font-family: "Ubuntu";
+}
+
+.collapse {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.collapse a {
+    margin: 0px 20px;
+}
+
+.row {
+    padding: 10% 15% 5%;
+}
+
+.row h1 {
+    font-weight: 900;
+    font-size: 4rem;
+    line-height: 1.5;
+}
+
+.btnc {
+    display: flex;
+    width: 28rem;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    margin: 3rem .5rem;
+}
+
+.btn:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    margin: 3rem .5rem;
+    box-shadow: 25px 24px 28px black;
+}
+
+.iLogo {
+    width: 3rem;
+    padding: 3px 5px 10px 0px;
+}
+
+.gLogo {
+    width: 3rem;
+    padding: 3px 5px 5px 0px;
+}
+
+
+.iImg {
+    width: 15rem;
+    transform: rotate(25deg);
+    margin-left: 10rem;
+    border-radius: 40px;
+    box-shadow: 25px 24px 28px black;
+}
+
+.feature-box {
+    text-align: center;
+}
+
+.feature-box h3 {
+    font-weight: 900;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.feature-box p {
+    color: gray;
+    font-weight: 400;
+    font-size: medium;
+}
+
+.ico {
+    width: 4rem;
+    margin-bottom: 1rem;
+}
