@@ -1,0 +1,22 @@
+.navbar {
+    margin-top: 3rem;
+}
+
+.iImg {
+    width: 15rem;
+    transform: rotate(0deg);
+    margin-left: 10rem;
+    border-radius: 40px;
+    box-shadow: 25px 24px 28px black;
+}
+
+.btnc {
+    width: 28rem;
+    margin: auto;
+}
+
+.iImg {
+    width: 15rem;
+    transform: rotate(0deg);
+    margin-left: 16rem;
+}

@@ -2,7 +2,7 @@
     background-color: #ff4c64;
 }
 
-.container-fluid{
+.container-fluid {
     padding: 3% 15%;
 }
 
@@ -13,10 +13,6 @@
     padding: 12%;
     font-size: 1.2rem;
     font-weight: 900;
-}
-
-.navbar a {
-    color: black;
 }
 
 .collapse {
@@ -30,25 +26,21 @@
 
 /* Cover page */
 
-.row {
-    padding: 6% 10% 5%;
-}
-
 .row h1 {
     text-align: center;
     font-weight: 900;
     font-size: 3.9rem;
     line-height: 1.5;
-    color: antiquewhite;
+    color: white;
 }
 
-.cbtnc {
+.btnc {
     display: flex;
     width: 28rem;
     margin: auto;
 }
 
-.cbtn {
+.btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,12 +48,7 @@
     margin: 3rem .5rem;
 }
 
-.cbtn:hover {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 15rem;
-    margin: 3rem .5rem;
+.btn:hover {
     box-shadow: 25px 24px 28px black;
 }
 
@@ -85,21 +72,31 @@
 }
 
 /* Feature section */
-
 .feature-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
     text-align: center;
-}
-
-.feature-box h3 {
-    font-weight: 900;
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
 }
 
 .feature-box p {
     color: gray;
     font-weight: 400;
     font-size: medium;
+}
+
+.row {
+    padding: 4% 10% 5%;
+}
+
+.row h3 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 1.5;
+    color: black;
 }
 
 .ico {
@@ -116,7 +113,7 @@
 #testimonials h2 {
     font-size: 3rem;
     line-height: 1.5;
-    color: antiquewhite;
+    color: white;
 }
 
 .testimonials-image {
@@ -126,7 +123,7 @@
 }
 
 .place {
-    color: antiquewhite;
+    color: white;
 }
 
 .carousel-item {
@@ -148,15 +145,15 @@
 
 /* Pricing */
 
-#pricing{
+#pricing {
     text-align: center;
     padding-top: 2rem;
 }
 
-#pricing h1{
+#pricing h1 {
     font-size: 4rem;
 }
 
-.head{
+.head {
     font-size: 1.5rem;
 }
