@@ -2,6 +2,8 @@
     background-color: #ff4c64;
 }
 
+/* Navbar */
+
 .navbar {
     padding: 2%;
     font-weight: 900;
@@ -20,6 +22,8 @@
     margin: 0px 20px;
 }
 
+/* Cover page */
+
 .row {
     padding: 10% 15% 5%;
 }
@@ -28,14 +32,15 @@
     font-weight: 900;
     font-size: 4rem;
     line-height: 1.5;
+    color: antiquewhite;
 }
 
-.btnc {
+.cbtnc {
     display: flex;
     width: 28rem;
 }
 
-.btn {
+.cbtn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,7 +48,7 @@
     margin: 3rem .5rem;
 }
 
-.btn:hover {
+.cbtn:hover {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,6 +76,8 @@
     box-shadow: 25px 24px 28px black;
 }
 
+/* Feature section */
+
 .feature-box {
     text-align: center;
 }
@@ -90,4 +97,58 @@
 .ico {
     width: 4rem;
     margin-bottom: 1rem;
+}
+
+/* Testimonials */
+#testimonials {
+    text-align: center;
+    background-color: #ff4c64;
+}
+
+#testimonials h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+    color: antiquewhite;
+}
+
+.testimonials-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.place {
+    color: antiquewhite;
+}
+
+.carousel-item {
+    padding: 5% 15%;
+}
+
+/* Press Section */
+
+#press {
+    background-color: #ff4c64;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+#press img {
+    width: 15%;
+    margin: 4rem;
+}
+
+/* Pricing */
+
+#pricing{
+    text-align: center;
+    padding-top: 2rem;
+}
+
+#pricing h1{
+    font-size: 4rem;
+}
+
+.head{
+    font-size: 1.5rem;
 }

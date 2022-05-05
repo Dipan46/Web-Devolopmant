@@ -42,6 +42,8 @@
 
 <body>
 
+    <!-- Cover Page -->
+
     <section id="title">
 
         <!-- Navigation Bar -->
@@ -68,17 +70,17 @@
             </div>
         </nav>
 
-        <!-- Navigation Bar -->
+        <!-- Cover -->
 
         <div class="row" style="margin: 0px;">
             <div class="col-lg-6">
                 <h1>Meet new and interesting dogs nearby.</h1>
-                <div class="btnc">
-                    <button type="button" class="btn rounded-pill btn-dark">
+                <div class="cbtnc">
+                    <button type="button" class="cbtn rounded-pill btn-dark">
                         <img class="iLogo" src="images/apple-logo.png" alt="apple">
                         Download
                     </button>
-                    <button type="button" class="btn rounded-pill btn-outline-light">
+                    <button type="button" class="cbtn rounded-pill btn-outline-light" style="color: black;">
                         <img class="gLogo" src="images/google-play.png" alt="google-play">
                         Download
                     </button>
@@ -120,20 +122,40 @@
 
     <section id="testimonials">
 
-        <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-        <img src="images/dog-img.jpg" alt="dog-profile">
-        <em>Pebbles, New York</em>
-
-        <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-        <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-        <em>Beverly, Illinois</em> -->
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.
+                    </h2>
+                    <img class="testimonials-image" src="images/dog-img.jpg" alt="dog-profile">
+                    <em class="place">Pebbles, New York</em>
+                </div>
+                <div class="carousel-item">
+                    <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the
+                        love of
+                        their life. I think.</h2>
+                    <img class="testimonials-image" src="images/lady-img.jpg" alt="lady-profile">
+                    <em class="place">Beverly, Illinois</em>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
 
     </section>
-
 
     <!-- Press -->
 
     <section id="press">
+
         <img src="images/techcrunch.png" alt="tc-logo">
         <img src="images/tnw.png" alt="tnw-logo">
         <img src="images/bizinsider.png" alt="biz-insider-logo">
@@ -141,39 +163,55 @@
 
     </section>
 
-
     <!-- Pricing -->
 
     <section id="pricing">
-
-        <h2>A Plan for Every Dog's Needs</h2>
-        <p>Simple and affordable price plans for your and your dog.</p>
-
-
-        <h3>Chihuahua</h3>
-        <h2>Free</h2>
-        <p>5 Matches Per Day</p>
-        <p>10 Messages Per Day</p>
-        <p>Unlimited App Usage</p>
-        <button type="button">Sign Up</button>
-
-
-        <h3>Labrador</h3>
-        <h2>$49 / mo</h2>
-        <p>Unlimited Matches</p>
-        <p>Unlimited Messages</p>
-        <p>Unlimited App Usage</p>
-        <button type="button">Sign Up</button>
-
-
-        <h3>Mastiff</h3>
-        <h2>$99 / mo</h2>
-        <p>Pirority Listing</p>
-        <p>Unlimited Matches</p>
-        <p>Unlimited Messages</p>
-        <p>Unlimited App Usage</p>
-        <button type="button">Sign Up</button>
-
+        <h1>A Plan for Every Dog's Needs</h1>
+        <p class="head">Simple and affordable price plans for your and your dog.</p>
+        <div class="row">
+        <div class="col-lg-4 col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Chihuahua</h3>
+                </div>
+                <div class="card-body">
+                    <h3>Free</h3>
+                    <p>5 Matches Per Day</p>
+                    <p>10 Messages Per Day</p>
+                    <p>Unlimited App Usage</p>
+                    <button type="button" class="w-100 btn btn-lg btn-outline-dark">Sign Up</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Labrador</h3>
+                </div>
+                <div class="card-body">
+                    <h3>$49 / mo</h3>
+                    <p>Unlimited Matches</p>
+                    <p>Unlimited Messages</p>
+                    <p>Unlimited App Usage</p>
+                    <button type="button" class="w-100 btn btn-lg btn-dark">Sign Up</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Mastiff</h3>
+                </div>
+                <div class="card-body">
+                    <h3>$99 / mo</h3>
+                    <p>Pirority Listing</p>
+                    <p>Unlimited Matches</p>
+                    <p>Unlimited Messages</p>
+                    <p>Unlimited App Usage</p>
+                    <button type="button" class="w-100 btn btn-lg btn-dark">Sign Up</button>
+                </div>
+            </div>
+        </div>
     </section>
 
 
