@@ -178,7 +178,7 @@ a.navbar-brand {
     background-color: #ff4c64
 }
 
-#cta h3{
+#cta h3 {
     color: white;
     text-align: center;
     padding: 2rem;
@@ -187,7 +187,7 @@ a.navbar-brand {
 
 /* Footer */
 
-#footer{
+#footer {
     font-family: sans-serif;
     display: flex;
     flex-direction: column;
@@ -196,12 +196,12 @@ a.navbar-brand {
     margin: 5rem 0rem 0rem 0rem;
 }
 
-.fLogo{
+.fLogo {
     width: 2rem;
     margin: 1.5rem;
 }
 
-#footer p{
+#footer p {
     text-align: center;
     font-size: 1.2rem;
     width: 100%;
