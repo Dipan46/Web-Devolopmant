@@ -15,6 +15,10 @@
     font-weight: 900;
 }
 
+a.navbar-brand {
+    font-size: 2.6rem;
+}
+
 .collapse {
     display: flex;
     justify-content: flex-end;
@@ -27,20 +31,18 @@
 /* Cover page */
 
 .row h1 {
-    text-align: center;
     font-weight: 900;
     font-size: 3.9rem;
     line-height: 1.5;
     color: white;
 }
 
-.btnc {
+.cbtnc {
     display: flex;
     width: 28rem;
-    margin: auto;
 }
 
-.btn {
+.cbtn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,7 +50,7 @@
     margin: 3rem .5rem;
 }
 
-.btn:hover {
+.cbtn:hover {
     box-shadow: 25px 24px 28px black;
 }
 
@@ -139,8 +141,8 @@
 }
 
 #press img {
-    width: 15%;
-    margin: 4rem;
+    width: 10%;
+    margin: 0rem 6rem 2rem 6rem;
 }
 
 /* Pricing */
@@ -156,4 +158,50 @@
 
 .head {
     font-size: 1.5rem;
+}
+
+/* Subscription */
+
+.btn:hover {
+    box-shadow: 25px 24px 28px black;
+}
+
+/* CTA section */
+
+#cta {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 6rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff4c64
+}
+
+#cta h3{
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    font-size: 3.5rem;
+}
+
+/* Footer */
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin: 5rem 0rem 0rem 0rem;
+}
+
+.fLogo{
+    width: 2rem;
+    margin: 1.5rem;
+}
+
+#footer p{
+    text-align: center;
+    font-size: 1.2rem;
+    width: 100%;
+    background-color: whitesmoke;
 }

@@ -1,5 +1,25 @@
+/* Navbar */
+
 .navbar {
-    margin-top: 3rem;
+    font-family: "Ubuntu";
+    padding: 3rem 3rem;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+a.navbar-brand {
+    font-size: 6rem;
+}
+
+/* Cover page */
+
+.row h1 {
+    margin: 3rem 1rem;
+    text-align: center;
+    font-weight: 900;
+    font-size: 6.5rem;
+    line-height: 1.5;
+    color: white;
 }
 
 .iImg {
@@ -10,13 +30,81 @@
     box-shadow: 25px 24px 28px black;
 }
 
-.btnc {
-    width: 28rem;
+/* Download btn */
+
+.cbtnc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: auto;
 }
 
+.cbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150%;
+    height: 10rem;
+}
+
+.cbtnc button{
+        font-size: 4rem;
+        font-weight: 500;
+}
+
+.iLogo{
+    width: 6rem;
+}
+
+.gLogo{
+    width: 7rem;
+}
+
+/* Cover image */
+
 .iImg {
-    width: 15rem;
+    width: 25rem;
     transform: rotate(0deg);
-    margin-left: 16rem;
+    margin-left: 11.5rem;
+    border-radius: 64px;
+}
+
+/* Features */
+
+.row h3{
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.row p{
+    font-size: 2rem;
+}
+
+.ico{
+    width: 10rem;
+    margin: 2rem 0px 1rem 0px;
+}
+
+/* Press section */
+
+#press img{
+    width: 15rem;
+}
+
+/* CTA */
+
+#cta h3 {
+    font-size: 8rem;
+}
+
+/* Footer */
+
+.fLogo {
+    width: 6rem;
+    margin: 4rem;
+}
+
+#footer p{
+    font-size: 2.5rem;
 }
